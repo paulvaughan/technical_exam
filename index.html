@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Technical Exam</title>
+  <link rel="stylesheet" type="text/css" href="./tech.css">
+  <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Kalam" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One|Vidaloka" rel="stylesheet">
+</head>
+<body id="myBod">
+    <h1>Montgomery Coderbase&#169; Developer Registry</h1>
+    <h2>A reliable source for <strong>development data</strong></h2>
+        
+    <fieldset>
+      <form id="dev-form">
+        Student Name: <input id="sname" required name="name" value="" type="text" onfocus="active()" onblur="inactive()"/> 
+        Language: <input required name="language" value="" type="text"/>
+        Coding School: <input id="scode" required name="school" value="" type="text"/>
+        
+        <button id="submitButton" type="submit">Submit</button>
+        <button id="resetButton" type="reset">Reset</button>
+      </form>
+    </fieldset>
+       
+ 
+    <script>
+        function active() {
+          document.getElementById("sname").style.background = 'yellow'
+        }
+        function inactive() {
+          document.getElementById("sname").style.background = 'white'
+        }
+    </script>  
+</body>
+
+<script src="./tech.js"></script>
+
+</html>

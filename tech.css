@@ -1,0 +1,45 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1533279443086-d1c19a186416?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80);
+  background-size: contain cover;
+}
+
+h1 {
+  color: rgb(10, 15, 34);
+  font-weight: bolder;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Vidaloka', cursive;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Poiret One'
+}
+
+#dev-form {
+  font-family: 'Kalam', cursive;
+  color:blue;
+  font-weight: bolder;
+}
+
+button {
+  font-family: 'Kalam';
+  font-weight: bolder;
+}
+
+button:hover, button:focus {
+  color: red;
+}
+
+li {
+  color: red;
+  font-family: 'Kalam'
+}
+
+input, select, textarea{
+  color: #ff0000;
+  font-family: 'Kalam';
+  font-weight: bold;
+  font-size: 15px
+}
